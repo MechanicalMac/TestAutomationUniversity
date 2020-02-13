@@ -1,7 +1,6 @@
 package base;
 
 import com.google.common.io.Files;
-import org.openqa.selenium.Cookie;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
@@ -23,12 +22,12 @@ public class DriverInstance {
 
     @BeforeClass
     public void setUp() {
-        System.setProperty("webdriver.chrome.driver", "resources\\chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", "resources\\chromedriver");
         driver = new  ChromeDriver(getChromeOptions());
         /*driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);*/
         /*driver.manage().timeouts().pageLoadTimeout(10, TimeUnit.SECONDS);*/
         goHome();
-        setCookie();
+        /*setCookie();*/
         driver.manage().window().maximize();
         homePage = new HomePage(driver);
     }
@@ -68,12 +67,12 @@ public class DriverInstance {
         options.setHeadless(true); //Тесты ранятся без запуска UI браузера.
         return options;
     }
-    private void setCookie() {
+    /*private void setCookie() {
         var cookie = new Cookie.Builder("cookies", "123")
                 .domain("the-internet.herokuapp.com")
                 .build();
         driver.manage().addCookie(cookie);
-    }
+    }*/
 
     @AfterClass
     public void tearDown() {
