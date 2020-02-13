@@ -2,424 +2,424 @@
 <testng-results ignored="0" total="16" passed="16" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2020-02-13T11:16:07 EET" name="Command line suite" finished-at="2020-02-13T11:17:32 EET" duration-ms="84182">
+  <suite started-at="2020-02-13T15:19:06 EET" name="Command line suite" finished-at="2020-02-13T15:20:02 EET" duration-ms="55548">
     <groups>
     </groups>
-    <test started-at="2020-02-13T11:16:07 EET" name="Command line test" finished-at="2020-02-13T11:17:32 EET" duration-ms="84182">
-      <class name="navigation.NavigationTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:navigation.NavigationTest@36902638]" started-at="2020-02-13T11:17:14 EET" name="setUp" finished-at="2020-02-13T11:17:17 EET" duration-ms="3368" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="goHome()[pri:0, instance:navigation.NavigationTest@36902638]" started-at="2020-02-13T11:17:17 EET" name="goHome" finished-at="2020-02-13T11:17:18 EET" duration-ms="174" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- goHome -->
-        <test-method signature="switchTabTest()[pri:0, instance:navigation.NavigationTest@36902638]" started-at="2020-02-13T11:17:18 EET" name="switchTabTest" finished-at="2020-02-13T11:17:18 EET" duration-ms="417" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- switchTabTest -->
-        <test-method is-config="true" signature="recordFailure(org.testng.ITestResult)[pri:0, instance:navigation.NavigationTest@36902638]" started-at="2020-02-13T11:17:18 EET" name="recordFailure" finished-at="2020-02-13T11:17:18 EET" duration-ms="0" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=switchTabTest status=SUCCESS method=NavigationTest.switchTabTest()[pri:0, instance:navigation.NavigationTest@36902638] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- recordFailure -->
-        <test-method is-config="true" signature="goHome()[pri:0, instance:navigation.NavigationTest@36902638]" started-at="2020-02-13T11:17:18 EET" name="goHome" finished-at="2020-02-13T11:17:18 EET" duration-ms="175" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- goHome -->
-        <test-method signature="testNavigator()[pri:0, instance:navigation.NavigationTest@36902638]" started-at="2020-02-13T11:17:18 EET" name="testNavigator" finished-at="2020-02-13T11:17:20 EET" duration-ms="1387" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testNavigator -->
-        <test-method is-config="true" signature="recordFailure(org.testng.ITestResult)[pri:0, instance:navigation.NavigationTest@36902638]" started-at="2020-02-13T11:17:20 EET" name="recordFailure" finished-at="2020-02-13T11:17:20 EET" duration-ms="1" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=testNavigator status=SUCCESS method=NavigationTest.testNavigator()[pri:0, instance:navigation.NavigationTest@36902638] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- recordFailure -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:navigation.NavigationTest@36902638]" started-at="2020-02-13T11:17:20 EET" name="tearDown" finished-at="2020-02-13T11:17:20 EET" duration-ms="548" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- navigation.NavigationTest -->
+    <test started-at="2020-02-13T15:19:06 EET" name="Command line test" finished-at="2020-02-13T15:20:02 EET" duration-ms="55548">
       <class name="keys.KeysTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:keys.KeysTest@49ec71f8]" started-at="2020-02-13T11:16:59 EET" name="setUp" finished-at="2020-02-13T11:17:06 EET" duration-ms="6671" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:keys.KeysTest@223191a6]" started-at="2020-02-13T15:19:38 EET" name="setUp" finished-at="2020-02-13T15:19:41 EET" duration-ms="2917" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="goHome()[pri:0, instance:keys.KeysTest@49ec71f8]" started-at="2020-02-13T11:17:06 EET" name="goHome" finished-at="2020-02-13T11:17:06 EET" duration-ms="184" status="PASS">
+        <test-method is-config="true" signature="goHome()[pri:0, instance:keys.KeysTest@223191a6]" started-at="2020-02-13T15:19:41 EET" name="goHome" finished-at="2020-02-13T15:19:41 EET" duration-ms="172" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- goHome -->
-        <test-method signature="testBackspace()[pri:0, instance:keys.KeysTest@49ec71f8]" started-at="2020-02-13T11:17:06 EET" name="testBackspace" finished-at="2020-02-13T11:17:06 EET" duration-ms="292" status="PASS">
+        <test-method signature="testBackspace()[pri:0, instance:keys.KeysTest@223191a6]" started-at="2020-02-13T15:19:41 EET" name="testBackspace" finished-at="2020-02-13T15:19:42 EET" duration-ms="289" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testBackspace -->
-        <test-method is-config="true" signature="recordFailure(org.testng.ITestResult)[pri:0, instance:keys.KeysTest@49ec71f8]" started-at="2020-02-13T11:17:06 EET" name="recordFailure" finished-at="2020-02-13T11:17:06 EET" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="recordFailure(org.testng.ITestResult)[pri:0, instance:keys.KeysTest@223191a6]" started-at="2020-02-13T15:19:42 EET" name="recordFailure" finished-at="2020-02-13T15:19:42 EET" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=testBackspace status=SUCCESS method=KeysTest.testBackspace()[pri:0, instance:keys.KeysTest@49ec71f8] output={null}]]]>
+                <![CDATA[[TestResult name=testBackspace status=SUCCESS method=KeysTest.testBackspace()[pri:0, instance:keys.KeysTest@223191a6] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- recordFailure -->
-        <test-method is-config="true" signature="goHome()[pri:0, instance:keys.KeysTest@49ec71f8]" started-at="2020-02-13T11:17:06 EET" name="goHome" finished-at="2020-02-13T11:17:06 EET" duration-ms="170" status="PASS">
+        <test-method is-config="true" signature="goHome()[pri:0, instance:keys.KeysTest@223191a6]" started-at="2020-02-13T15:19:42 EET" name="goHome" finished-at="2020-02-13T15:19:42 EET" duration-ms="159" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- goHome -->
-        <test-method signature="testPi()[pri:0, instance:keys.KeysTest@49ec71f8]" started-at="2020-02-13T11:17:06 EET" name="testPi" finished-at="2020-02-13T11:17:07 EET" duration-ms="260" status="PASS">
+        <test-method signature="testPi()[pri:0, instance:keys.KeysTest@223191a6]" started-at="2020-02-13T15:19:42 EET" name="testPi" finished-at="2020-02-13T15:19:42 EET" duration-ms="243" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testPi -->
-        <test-method is-config="true" signature="recordFailure(org.testng.ITestResult)[pri:0, instance:keys.KeysTest@49ec71f8]" started-at="2020-02-13T11:17:07 EET" name="recordFailure" finished-at="2020-02-13T11:17:07 EET" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="recordFailure(org.testng.ITestResult)[pri:0, instance:keys.KeysTest@223191a6]" started-at="2020-02-13T15:19:42 EET" name="recordFailure" finished-at="2020-02-13T15:19:42 EET" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=testPi status=SUCCESS method=KeysTest.testPi()[pri:0, instance:keys.KeysTest@49ec71f8] output={null}]]]>
+                <![CDATA[[TestResult name=testPi status=SUCCESS method=KeysTest.testPi()[pri:0, instance:keys.KeysTest@223191a6] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- recordFailure -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:keys.KeysTest@49ec71f8]" started-at="2020-02-13T11:17:07 EET" name="tearDown" finished-at="2020-02-13T11:17:07 EET" duration-ms="544" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:keys.KeysTest@223191a6]" started-at="2020-02-13T15:19:42 EET" name="tearDown" finished-at="2020-02-13T15:19:43 EET" duration-ms="545" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- keys.KeysTest -->
-      <class name="wait.WaitTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:wait.WaitTest@223d2c72]" started-at="2020-02-13T11:17:20 EET" name="setUp" finished-at="2020-02-13T11:17:25 EET" duration-ms="5057" status="PASS">
+      <class name="navigation.NavigationTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:navigation.NavigationTest@9597028]" started-at="2020-02-13T15:19:47 EET" name="setUp" finished-at="2020-02-13T15:19:50 EET" duration-ms="2724" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="goHome()[pri:0, instance:wait.WaitTest@223d2c72]" started-at="2020-02-13T11:17:25 EET" name="goHome" finished-at="2020-02-13T11:17:25 EET" duration-ms="180" status="PASS">
+        <test-method is-config="true" signature="goHome()[pri:0, instance:navigation.NavigationTest@9597028]" started-at="2020-02-13T15:19:50 EET" name="goHome" finished-at="2020-02-13T15:19:50 EET" duration-ms="178" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- goHome -->
-        <test-method signature="testWaitUntilHidden()[pri:0, instance:wait.WaitTest@223d2c72]" started-at="2020-02-13T11:17:25 EET" name="testWaitUntilHidden" finished-at="2020-02-13T11:17:31 EET" duration-ms="5628" status="PASS">
+        <test-method signature="switchTabTest()[pri:0, instance:navigation.NavigationTest@9597028]" started-at="2020-02-13T15:19:50 EET" name="switchTabTest" finished-at="2020-02-13T15:19:50 EET" duration-ms="412" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- switchTabTest -->
+        <test-method is-config="true" signature="recordFailure(org.testng.ITestResult)[pri:0, instance:navigation.NavigationTest@9597028]" started-at="2020-02-13T15:19:50 EET" name="recordFailure" finished-at="2020-02-13T15:19:50 EET" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=switchTabTest status=SUCCESS method=NavigationTest.switchTabTest()[pri:0, instance:navigation.NavigationTest@9597028] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- recordFailure -->
+        <test-method is-config="true" signature="goHome()[pri:0, instance:navigation.NavigationTest@9597028]" started-at="2020-02-13T15:19:50 EET" name="goHome" finished-at="2020-02-13T15:19:50 EET" duration-ms="169" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goHome -->
+        <test-method signature="testNavigator()[pri:0, instance:navigation.NavigationTest@9597028]" started-at="2020-02-13T15:19:50 EET" name="testNavigator" finished-at="2020-02-13T15:19:52 EET" duration-ms="1551" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNavigator -->
+        <test-method is-config="true" signature="recordFailure(org.testng.ITestResult)[pri:0, instance:navigation.NavigationTest@9597028]" started-at="2020-02-13T15:19:52 EET" name="recordFailure" finished-at="2020-02-13T15:19:52 EET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testNavigator status=SUCCESS method=NavigationTest.testNavigator()[pri:0, instance:navigation.NavigationTest@9597028] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- recordFailure -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:navigation.NavigationTest@9597028]" started-at="2020-02-13T15:19:52 EET" name="tearDown" finished-at="2020-02-13T15:19:52 EET" duration-ms="548" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- navigation.NavigationTest -->
+      <class name="wait.WaitTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:wait.WaitTest@6069db50]" started-at="2020-02-13T15:19:52 EET" name="setUp" finished-at="2020-02-13T15:19:56 EET" duration-ms="3211" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="goHome()[pri:0, instance:wait.WaitTest@6069db50]" started-at="2020-02-13T15:19:56 EET" name="goHome" finished-at="2020-02-13T15:19:56 EET" duration-ms="181" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goHome -->
+        <test-method signature="testWaitUntilHidden()[pri:0, instance:wait.WaitTest@6069db50]" started-at="2020-02-13T15:19:56 EET" name="testWaitUntilHidden" finished-at="2020-02-13T15:20:01 EET" duration-ms="5644" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testWaitUntilHidden -->
-        <test-method is-config="true" signature="recordFailure(org.testng.ITestResult)[pri:0, instance:wait.WaitTest@223d2c72]" started-at="2020-02-13T11:17:31 EET" name="recordFailure" finished-at="2020-02-13T11:17:31 EET" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:wait.WaitTest@6069db50]" started-at="2020-02-13T15:20:01 EET" name="tearDown" finished-at="2020-02-13T15:20:02 EET" duration-ms="549" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="recordFailure(org.testng.ITestResult)[pri:0, instance:wait.WaitTest@6069db50]" started-at="2020-02-13T15:20:01 EET" name="recordFailure" finished-at="2020-02-13T15:20:01 EET" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=testWaitUntilHidden status=SUCCESS method=WaitTest.testWaitUntilHidden()[pri:0, instance:wait.WaitTest@223d2c72] output={null}]]]>
+                <![CDATA[[TestResult name=testWaitUntilHidden status=SUCCESS method=WaitTest.testWaitUntilHidden()[pri:0, instance:wait.WaitTest@6069db50] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- recordFailure -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:wait.WaitTest@223d2c72]" started-at="2020-02-13T11:17:31 EET" name="tearDown" finished-at="2020-02-13T11:17:32 EET" duration-ms="545" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
       </class> <!-- wait.WaitTest -->
       <class name="alerts.AlertTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:alerts.AlertTest@3a93b025]" started-at="2020-02-13T11:16:07 EET" name="setUp" finished-at="2020-02-13T11:16:11 EET" duration-ms="3787" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:alerts.AlertTest@7f0eb4b4]" started-at="2020-02-13T15:19:06 EET" name="setUp" finished-at="2020-02-13T15:19:10 EET" duration-ms="3380" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="goHome()[pri:0, instance:alerts.AlertTest@3a93b025]" started-at="2020-02-13T11:16:11 EET" name="goHome" finished-at="2020-02-13T11:16:11 EET" duration-ms="187" status="PASS">
+        <test-method is-config="true" signature="goHome()[pri:0, instance:alerts.AlertTest@7f0eb4b4]" started-at="2020-02-13T15:19:10 EET" name="goHome" finished-at="2020-02-13T15:19:10 EET" duration-ms="183" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- goHome -->
-        <test-method signature="testAcceptAlert()[pri:0, instance:alerts.AlertTest@3a93b025]" started-at="2020-02-13T11:16:11 EET" name="testAcceptAlert" finished-at="2020-02-13T11:16:12 EET" duration-ms="333" status="PASS">
+        <test-method signature="testAcceptAlert()[pri:0, instance:alerts.AlertTest@7f0eb4b4]" started-at="2020-02-13T15:19:10 EET" name="testAcceptAlert" finished-at="2020-02-13T15:19:10 EET" duration-ms="316" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testAcceptAlert -->
-        <test-method is-config="true" signature="recordFailure(org.testng.ITestResult)[pri:0, instance:alerts.AlertTest@3a93b025]" started-at="2020-02-13T11:16:12 EET" name="recordFailure" finished-at="2020-02-13T11:16:12 EET" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="recordFailure(org.testng.ITestResult)[pri:0, instance:alerts.AlertTest@7f0eb4b4]" started-at="2020-02-13T15:19:10 EET" name="recordFailure" finished-at="2020-02-13T15:19:10 EET" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=testAcceptAlert status=SUCCESS method=AlertTest.testAcceptAlert()[pri:0, instance:alerts.AlertTest@3a93b025] output={null}]]]>
+                <![CDATA[[TestResult name=testAcceptAlert status=SUCCESS method=AlertTest.testAcceptAlert()[pri:0, instance:alerts.AlertTest@7f0eb4b4] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- recordFailure -->
-        <test-method is-config="true" signature="goHome()[pri:0, instance:alerts.AlertTest@3a93b025]" started-at="2020-02-13T11:16:12 EET" name="goHome" finished-at="2020-02-13T11:16:12 EET" duration-ms="177" status="PASS">
+        <test-method is-config="true" signature="goHome()[pri:0, instance:alerts.AlertTest@7f0eb4b4]" started-at="2020-02-13T15:19:10 EET" name="goHome" finished-at="2020-02-13T15:19:11 EET" duration-ms="175" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- goHome -->
-        <test-method signature="testGetTextFromAlert()[pri:0, instance:alerts.AlertTest@3a93b025]" started-at="2020-02-13T11:16:12 EET" name="testGetTextFromAlert" finished-at="2020-02-13T11:16:12 EET" duration-ms="269" status="PASS">
+        <test-method signature="testGetTextFromAlert()[pri:0, instance:alerts.AlertTest@7f0eb4b4]" started-at="2020-02-13T15:19:11 EET" name="testGetTextFromAlert" finished-at="2020-02-13T15:19:11 EET" duration-ms="272" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGetTextFromAlert -->
-        <test-method is-config="true" signature="goHome()[pri:0, instance:alerts.AlertTest@3a93b025]" started-at="2020-02-13T11:16:12 EET" name="goHome" finished-at="2020-02-13T11:16:12 EET" duration-ms="172" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- goHome -->
-        <test-method is-config="true" signature="recordFailure(org.testng.ITestResult)[pri:0, instance:alerts.AlertTest@3a93b025]" started-at="2020-02-13T11:16:12 EET" name="recordFailure" finished-at="2020-02-13T11:16:12 EET" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="recordFailure(org.testng.ITestResult)[pri:0, instance:alerts.AlertTest@7f0eb4b4]" started-at="2020-02-13T15:19:11 EET" name="recordFailure" finished-at="2020-02-13T15:19:11 EET" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=testGetTextFromAlert status=SUCCESS method=AlertTest.testGetTextFromAlert()[pri:0, instance:alerts.AlertTest@3a93b025] output={null}]]]>
+                <![CDATA[[TestResult name=testGetTextFromAlert status=SUCCESS method=AlertTest.testGetTextFromAlert()[pri:0, instance:alerts.AlertTest@7f0eb4b4] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- recordFailure -->
-        <test-method signature="testSetInputInAlert()[pri:0, instance:alerts.AlertTest@3a93b025]" started-at="2020-02-13T11:16:12 EET" name="testSetInputInAlert" finished-at="2020-02-13T11:16:13 EET" duration-ms="310" status="PASS">
+        <test-method is-config="true" signature="goHome()[pri:0, instance:alerts.AlertTest@7f0eb4b4]" started-at="2020-02-13T15:19:11 EET" name="goHome" finished-at="2020-02-13T15:19:11 EET" duration-ms="168" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goHome -->
+        <test-method signature="testSetInputInAlert()[pri:0, instance:alerts.AlertTest@7f0eb4b4]" started-at="2020-02-13T15:19:11 EET" name="testSetInputInAlert" finished-at="2020-02-13T15:19:11 EET" duration-ms="294" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSetInputInAlert -->
-        <test-method is-config="true" signature="recordFailure(org.testng.ITestResult)[pri:0, instance:alerts.AlertTest@3a93b025]" started-at="2020-02-13T11:16:13 EET" name="recordFailure" finished-at="2020-02-13T11:16:13 EET" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:alerts.AlertTest@7f0eb4b4]" started-at="2020-02-13T15:19:11 EET" name="tearDown" finished-at="2020-02-13T15:19:12 EET" duration-ms="546" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="recordFailure(org.testng.ITestResult)[pri:0, instance:alerts.AlertTest@7f0eb4b4]" started-at="2020-02-13T15:19:11 EET" name="recordFailure" finished-at="2020-02-13T15:19:11 EET" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=testSetInputInAlert status=SUCCESS method=AlertTest.testSetInputInAlert()[pri:0, instance:alerts.AlertTest@3a93b025] output={null}]]]>
+                <![CDATA[[TestResult name=testSetInputInAlert status=SUCCESS method=AlertTest.testSetInputInAlert()[pri:0, instance:alerts.AlertTest@7f0eb4b4] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- recordFailure -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:alerts.AlertTest@3a93b025]" started-at="2020-02-13T11:16:13 EET" name="tearDown" finished-at="2020-02-13T11:16:13 EET" duration-ms="543" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
       </class> <!-- alerts.AlertTest -->
       <class name="dropdown.DropdownTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:dropdown.DropdownTest@1189dd52]" started-at="2020-02-13T11:16:37 EET" name="setUp" finished-at="2020-02-13T11:16:41 EET" duration-ms="3727" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:dropdown.DropdownTest@c8c12ac]" started-at="2020-02-13T15:19:21 EET" name="setUp" finished-at="2020-02-13T15:19:24 EET" duration-ms="2729" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="goHome()[pri:0, instance:dropdown.DropdownTest@1189dd52]" started-at="2020-02-13T11:16:41 EET" name="goHome" finished-at="2020-02-13T11:16:41 EET" duration-ms="176" status="PASS">
+        <test-method is-config="true" signature="goHome()[pri:0, instance:dropdown.DropdownTest@c8c12ac]" started-at="2020-02-13T15:19:24 EET" name="goHome" finished-at="2020-02-13T15:19:24 EET" duration-ms="178" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- goHome -->
-        <test-method signature="testSelectOption()[pri:0, instance:dropdown.DropdownTest@1189dd52]" started-at="2020-02-13T11:16:41 EET" name="testSelectOption" finished-at="2020-02-13T11:16:41 EET" duration-ms="350" status="PASS">
+        <test-method signature="testSelectOption()[pri:0, instance:dropdown.DropdownTest@c8c12ac]" started-at="2020-02-13T15:19:24 EET" name="testSelectOption" finished-at="2020-02-13T15:19:24 EET" duration-ms="356" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSelectOption -->
-        <test-method is-config="true" signature="recordFailure(org.testng.ITestResult)[pri:0, instance:dropdown.DropdownTest@1189dd52]" started-at="2020-02-13T11:16:41 EET" name="recordFailure" finished-at="2020-02-13T11:16:41 EET" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:dropdown.DropdownTest@c8c12ac]" started-at="2020-02-13T15:19:24 EET" name="tearDown" finished-at="2020-02-13T15:19:25 EET" duration-ms="544" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="recordFailure(org.testng.ITestResult)[pri:0, instance:dropdown.DropdownTest@c8c12ac]" started-at="2020-02-13T15:19:24 EET" name="recordFailure" finished-at="2020-02-13T15:19:24 EET" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=testSelectOption status=SUCCESS method=DropdownTest.testSelectOption()[pri:0, instance:dropdown.DropdownTest@1189dd52] output={null}]]]>
+                <![CDATA[[TestResult name=testSelectOption status=SUCCESS method=DropdownTest.testSelectOption()[pri:0, instance:dropdown.DropdownTest@c8c12ac] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- recordFailure -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:dropdown.DropdownTest@1189dd52]" started-at="2020-02-13T11:16:41 EET" name="tearDown" finished-at="2020-02-13T11:16:42 EET" duration-ms="544" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
       </class> <!-- dropdown.DropdownTest -->
-      <class name="context.ContextTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:context.ContextTest@7e07db1f]" started-at="2020-02-13T11:16:29 EET" name="setUp" finished-at="2020-02-13T11:16:36 EET" duration-ms="6531" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="goHome()[pri:0, instance:context.ContextTest@7e07db1f]" started-at="2020-02-13T11:16:36 EET" name="goHome" finished-at="2020-02-13T11:16:36 EET" duration-ms="183" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- goHome -->
-        <test-method signature="contextMenuTest()[pri:0, instance:context.ContextTest@7e07db1f]" started-at="2020-02-13T11:16:36 EET" name="contextMenuTest" finished-at="2020-02-13T11:16:36 EET" duration-ms="366" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- contextMenuTest -->
-        <test-method is-config="true" signature="recordFailure(org.testng.ITestResult)[pri:0, instance:context.ContextTest@7e07db1f]" started-at="2020-02-13T11:16:36 EET" name="recordFailure" finished-at="2020-02-13T11:16:36 EET" duration-ms="0" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=contextMenuTest status=SUCCESS method=ContextTest.contextMenuTest()[pri:0, instance:context.ContextTest@7e07db1f] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- recordFailure -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:context.ContextTest@7e07db1f]" started-at="2020-02-13T11:16:36 EET" name="tearDown" finished-at="2020-02-13T11:16:37 EET" duration-ms="545" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- context.ContextTest -->
       <class name="hover.HoverTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:hover.HoverTest@564fabc8]" started-at="2020-02-13T11:16:47 EET" name="setUp" finished-at="2020-02-13T11:16:51 EET" duration-ms="4564" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:hover.HoverTest@4550bb58]" started-at="2020-02-13T15:19:29 EET" name="setUp" finished-at="2020-02-13T15:19:32 EET" duration-ms="2741" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="goHome()[pri:0, instance:hover.HoverTest@564fabc8]" started-at="2020-02-13T11:16:51 EET" name="goHome" finished-at="2020-02-13T11:16:51 EET" duration-ms="189" status="PASS">
+        <test-method is-config="true" signature="goHome()[pri:0, instance:hover.HoverTest@4550bb58]" started-at="2020-02-13T15:19:32 EET" name="goHome" finished-at="2020-02-13T15:19:32 EET" duration-ms="188" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- goHome -->
-        <test-method signature="testHoverUser1()[pri:0, instance:hover.HoverTest@564fabc8]" started-at="2020-02-13T11:16:51 EET" name="testHoverUser1" finished-at="2020-02-13T11:16:52 EET" duration-ms="550" status="PASS">
+        <test-method signature="testHoverUser1()[pri:0, instance:hover.HoverTest@4550bb58]" started-at="2020-02-13T15:19:32 EET" name="testHoverUser1" finished-at="2020-02-13T15:19:33 EET" duration-ms="560" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testHoverUser1 -->
-        <test-method is-config="true" signature="recordFailure(org.testng.ITestResult)[pri:0, instance:hover.HoverTest@564fabc8]" started-at="2020-02-13T11:16:52 EET" name="recordFailure" finished-at="2020-02-13T11:16:52 EET" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="recordFailure(org.testng.ITestResult)[pri:0, instance:hover.HoverTest@4550bb58]" started-at="2020-02-13T15:19:33 EET" name="recordFailure" finished-at="2020-02-13T15:19:33 EET" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=testHoverUser1 status=SUCCESS method=HoverTest.testHoverUser1()[pri:0, instance:hover.HoverTest@564fabc8] output={null}]]]>
+                <![CDATA[[TestResult name=testHoverUser1 status=SUCCESS method=HoverTest.testHoverUser1()[pri:0, instance:hover.HoverTest@4550bb58] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- recordFailure -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:hover.HoverTest@564fabc8]" started-at="2020-02-13T11:16:52 EET" name="tearDown" finished-at="2020-02-13T11:16:53 EET" duration-ms="545" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:hover.HoverTest@4550bb58]" started-at="2020-02-13T15:19:33 EET" name="tearDown" finished-at="2020-02-13T15:19:33 EET" duration-ms="544" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- hover.HoverTest -->
       <class name="javascript.JavaScriptTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:javascript.JavaScriptTest@16d04d3d]" started-at="2020-02-13T11:16:53 EET" name="setUp" finished-at="2020-02-13T11:16:56 EET" duration-ms="3356" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:javascript.JavaScriptTest@4ec4f3a0]" started-at="2020-02-13T15:19:33 EET" name="setUp" finished-at="2020-02-13T15:19:36 EET" duration-ms="2757" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="goHome()[pri:0, instance:javascript.JavaScriptTest@16d04d3d]" started-at="2020-02-13T11:16:56 EET" name="goHome" finished-at="2020-02-13T11:16:56 EET" duration-ms="187" status="PASS">
+        <test-method is-config="true" signature="goHome()[pri:0, instance:javascript.JavaScriptTest@4ec4f3a0]" started-at="2020-02-13T15:19:36 EET" name="goHome" finished-at="2020-02-13T15:19:36 EET" duration-ms="178" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- goHome -->
-        <test-method signature="testScrollToFifthParagraph()[pri:0, instance:javascript.JavaScriptTest@16d04d3d]" started-at="2020-02-13T11:16:56 EET" name="testScrollToFifthParagraph" finished-at="2020-02-13T11:16:57 EET" duration-ms="939" status="PASS">
+        <test-method signature="testScrollToFifthParagraph()[pri:0, instance:javascript.JavaScriptTest@4ec4f3a0]" started-at="2020-02-13T15:19:36 EET" name="testScrollToFifthParagraph" finished-at="2020-02-13T15:19:37 EET" duration-ms="940" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testScrollToFifthParagraph -->
-        <test-method is-config="true" signature="goHome()[pri:0, instance:javascript.JavaScriptTest@16d04d3d]" started-at="2020-02-13T11:16:57 EET" name="goHome" finished-at="2020-02-13T11:16:57 EET" duration-ms="166" status="PASS">
+        <test-method is-config="true" signature="recordFailure(org.testng.ITestResult)[pri:0, instance:javascript.JavaScriptTest@4ec4f3a0]" started-at="2020-02-13T15:19:37 EET" name="recordFailure" finished-at="2020-02-13T15:19:37 EET" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testScrollToFifthParagraph status=SUCCESS method=JavaScriptTest.testScrollToFifthParagraph()[pri:0, instance:javascript.JavaScriptTest@4ec4f3a0] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- recordFailure -->
+        <test-method is-config="true" signature="goHome()[pri:0, instance:javascript.JavaScriptTest@4ec4f3a0]" started-at="2020-02-13T15:19:37 EET" name="goHome" finished-at="2020-02-13T15:19:37 EET" duration-ms="163" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- goHome -->
-        <test-method is-config="true" signature="recordFailure(org.testng.ITestResult)[pri:0, instance:javascript.JavaScriptTest@16d04d3d]" started-at="2020-02-13T11:16:57 EET" name="recordFailure" finished-at="2020-02-13T11:16:57 EET" duration-ms="0" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=testScrollToFifthParagraph status=SUCCESS method=JavaScriptTest.testScrollToFifthParagraph()[pri:0, instance:javascript.JavaScriptTest@16d04d3d] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- recordFailure -->
-        <test-method signature="testScrollToTable()[pri:0, instance:javascript.JavaScriptTest@16d04d3d]" started-at="2020-02-13T11:16:57 EET" name="testScrollToTable" finished-at="2020-02-13T11:16:59 EET" duration-ms="1451" status="PASS">
+        <test-method signature="testScrollToTable()[pri:0, instance:javascript.JavaScriptTest@4ec4f3a0]" started-at="2020-02-13T15:19:37 EET" name="testScrollToTable" finished-at="2020-02-13T15:19:38 EET" duration-ms="400" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testScrollToTable -->
-        <test-method is-config="true" signature="recordFailure(org.testng.ITestResult)[pri:0, instance:javascript.JavaScriptTest@16d04d3d]" started-at="2020-02-13T11:16:59 EET" name="recordFailure" finished-at="2020-02-13T11:16:59 EET" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="recordFailure(org.testng.ITestResult)[pri:0, instance:javascript.JavaScriptTest@4ec4f3a0]" started-at="2020-02-13T15:19:38 EET" name="recordFailure" finished-at="2020-02-13T15:19:38 EET" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=testScrollToTable status=SUCCESS method=JavaScriptTest.testScrollToTable()[pri:0, instance:javascript.JavaScriptTest@16d04d3d] output={null}]]]>
+                <![CDATA[[TestResult name=testScrollToTable status=SUCCESS method=JavaScriptTest.testScrollToTable()[pri:0, instance:javascript.JavaScriptTest@4ec4f3a0] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- recordFailure -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:javascript.JavaScriptTest@16d04d3d]" started-at="2020-02-13T11:16:59 EET" name="tearDown" finished-at="2020-02-13T11:16:59 EET" duration-ms="545" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:javascript.JavaScriptTest@4ec4f3a0]" started-at="2020-02-13T15:19:38 EET" name="tearDown" finished-at="2020-02-13T15:19:38 EET" duration-ms="545" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- javascript.JavaScriptTest -->
-      <class name="login.LoginTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:login.LoginTest@1d2adfbe]" started-at="2020-02-13T11:17:07 EET" name="setUp" finished-at="2020-02-13T11:17:12 EET" duration-ms="4872" status="PASS">
+      <class name="context.ContextTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:context.ContextTest@1623b78d]" started-at="2020-02-13T15:19:17 EET" name="setUp" finished-at="2020-02-13T15:19:20 EET" duration-ms="2718" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="goHome()[pri:0, instance:login.LoginTest@1d2adfbe]" started-at="2020-02-13T11:17:12 EET" name="goHome" finished-at="2020-02-13T11:17:12 EET" duration-ms="183" status="PASS">
+        <test-method is-config="true" signature="goHome()[pri:0, instance:context.ContextTest@1623b78d]" started-at="2020-02-13T15:19:20 EET" name="goHome" finished-at="2020-02-13T15:19:20 EET" duration-ms="184" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- goHome -->
-        <test-method signature="testSuccessfulLogin()[pri:0, instance:login.LoginTest@1d2adfbe]" started-at="2020-02-13T11:17:12 EET" name="testSuccessfulLogin" finished-at="2020-02-13T11:17:13 EET" duration-ms="1147" status="PASS">
+        <test-method signature="contextMenuTest()[pri:0, instance:context.ContextTest@1623b78d]" started-at="2020-02-13T15:19:20 EET" name="contextMenuTest" finished-at="2020-02-13T15:19:21 EET" duration-ms="348" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testSuccessfulLogin -->
-        <test-method is-config="true" signature="recordFailure(org.testng.ITestResult)[pri:0, instance:login.LoginTest@1d2adfbe]" started-at="2020-02-13T11:17:13 EET" name="recordFailure" finished-at="2020-02-13T11:17:13 EET" duration-ms="0" status="PASS">
+        </test-method> <!-- contextMenuTest -->
+        <test-method is-config="true" signature="recordFailure(org.testng.ITestResult)[pri:0, instance:context.ContextTest@1623b78d]" started-at="2020-02-13T15:19:21 EET" name="recordFailure" finished-at="2020-02-13T15:19:21 EET" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=testSuccessfulLogin status=SUCCESS method=LoginTest.testSuccessfulLogin()[pri:0, instance:login.LoginTest@1d2adfbe] output={null}]]]>
+                <![CDATA[[TestResult name=contextMenuTest status=SUCCESS method=ContextTest.contextMenuTest()[pri:0, instance:context.ContextTest@1623b78d] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- recordFailure -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:login.LoginTest@1d2adfbe]" started-at="2020-02-13T11:17:13 EET" name="tearDown" finished-at="2020-02-13T11:17:14 EET" duration-ms="544" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:context.ContextTest@1623b78d]" started-at="2020-02-13T15:19:21 EET" name="tearDown" finished-at="2020-02-13T15:19:21 EET" duration-ms="547" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- context.ContextTest -->
+      <class name="login.LoginTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:login.LoginTest@49139829]" started-at="2020-02-13T15:19:43 EET" name="setUp" finished-at="2020-02-13T15:19:45 EET" duration-ms="2725" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="goHome()[pri:0, instance:login.LoginTest@49139829]" started-at="2020-02-13T15:19:45 EET" name="goHome" finished-at="2020-02-13T15:19:45 EET" duration-ms="177" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goHome -->
+        <test-method signature="testSuccessfulLogin()[pri:0, instance:login.LoginTest@49139829]" started-at="2020-02-13T15:19:45 EET" name="testSuccessfulLogin" finished-at="2020-02-13T15:19:46 EET" duration-ms="854" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSuccessfulLogin -->
+        <test-method is-config="true" signature="recordFailure(org.testng.ITestResult)[pri:0, instance:login.LoginTest@49139829]" started-at="2020-02-13T15:19:46 EET" name="recordFailure" finished-at="2020-02-13T15:19:46 EET" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testSuccessfulLogin status=SUCCESS method=LoginTest.testSuccessfulLogin()[pri:0, instance:login.LoginTest@49139829] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- recordFailure -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:login.LoginTest@49139829]" started-at="2020-02-13T15:19:46 EET" name="tearDown" finished-at="2020-02-13T15:19:47 EET" duration-ms="545" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- login.LoginTest -->
-      <class name="frames.FrameTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:frames.FrameTest@36bc55de]" started-at="2020-02-13T11:16:42 EET" name="setUp" finished-at="2020-02-13T11:16:45 EET" duration-ms="3375" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="goHome()[pri:0, instance:frames.FrameTest@36bc55de]" started-at="2020-02-13T11:16:45 EET" name="goHome" finished-at="2020-02-13T11:16:45 EET" duration-ms="170" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- goHome -->
-        <test-method signature="testWysiwyg()[pri:0, instance:frames.FrameTest@36bc55de]" started-at="2020-02-13T11:16:45 EET" name="testWysiwyg" finished-at="2020-02-13T11:16:46 EET" duration-ms="972" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testWysiwyg -->
-        <test-method is-config="true" signature="recordFailure(org.testng.ITestResult)[pri:0, instance:frames.FrameTest@36bc55de]" started-at="2020-02-13T11:16:46 EET" name="recordFailure" finished-at="2020-02-13T11:16:46 EET" duration-ms="0" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=testWysiwyg status=SUCCESS method=FrameTest.testWysiwyg()[pri:0, instance:frames.FrameTest@36bc55de] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- recordFailure -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:frames.FrameTest@36bc55de]" started-at="2020-02-13T11:16:46 EET" name="tearDown" finished-at="2020-02-13T11:16:47 EET" duration-ms="546" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- frames.FrameTest -->
       <class name="alerts.FileUploadTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:alerts.FileUploadTest@35cabb2a]" started-at="2020-02-13T11:16:13 EET" name="setUp" finished-at="2020-02-13T11:16:19 EET" duration-ms="6256" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:alerts.FileUploadTest@5c33f1a9]" started-at="2020-02-13T15:19:12 EET" name="setUp" finished-at="2020-02-13T15:19:15 EET" duration-ms="2742" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="goHome()[pri:0, instance:alerts.FileUploadTest@35cabb2a]" started-at="2020-02-13T11:16:19 EET" name="goHome" finished-at="2020-02-13T11:16:20 EET" duration-ms="185" status="PASS">
+        <test-method is-config="true" signature="goHome()[pri:0, instance:alerts.FileUploadTest@5c33f1a9]" started-at="2020-02-13T15:19:15 EET" name="goHome" finished-at="2020-02-13T15:19:15 EET" duration-ms="179" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- goHome -->
-        <test-method signature="testFileUpload()[pri:0, instance:alerts.FileUploadTest@35cabb2a]" started-at="2020-02-13T11:16:20 EET" name="testFileUpload" finished-at="2020-02-13T11:16:29 EET" duration-ms="9060" status="PASS">
+        <test-method signature="testFileUpload()[pri:0, instance:alerts.FileUploadTest@5c33f1a9]" started-at="2020-02-13T15:19:15 EET" name="testFileUpload" finished-at="2020-02-13T15:19:17 EET" duration-ms="2013" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testFileUpload -->
-        <test-method is-config="true" signature="recordFailure(org.testng.ITestResult)[pri:0, instance:alerts.FileUploadTest@35cabb2a]" started-at="2020-02-13T11:16:29 EET" name="recordFailure" finished-at="2020-02-13T11:16:29 EET" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:alerts.FileUploadTest@5c33f1a9]" started-at="2020-02-13T15:19:17 EET" name="tearDown" finished-at="2020-02-13T15:19:17 EET" duration-ms="544" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="recordFailure(org.testng.ITestResult)[pri:0, instance:alerts.FileUploadTest@5c33f1a9]" started-at="2020-02-13T15:19:17 EET" name="recordFailure" finished-at="2020-02-13T15:19:17 EET" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=testFileUpload status=SUCCESS method=FileUploadTest.testFileUpload()[pri:0, instance:alerts.FileUploadTest@35cabb2a] output={null}]]]>
+                <![CDATA[[TestResult name=testFileUpload status=SUCCESS method=FileUploadTest.testFileUpload()[pri:0, instance:alerts.FileUploadTest@5c33f1a9] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- recordFailure -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:alerts.FileUploadTest@35cabb2a]" started-at="2020-02-13T11:16:29 EET" name="tearDown" finished-at="2020-02-13T11:16:29 EET" duration-ms="546" status="PASS">
+      </class> <!-- alerts.FileUploadTest -->
+      <class name="frames.FrameTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:frames.FrameTest@6adbc9d]" started-at="2020-02-13T15:19:25 EET" name="setUp" finished-at="2020-02-13T15:19:28 EET" duration-ms="2692" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="goHome()[pri:0, instance:frames.FrameTest@6adbc9d]" started-at="2020-02-13T15:19:28 EET" name="goHome" finished-at="2020-02-13T15:19:28 EET" duration-ms="174" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goHome -->
+        <test-method signature="testWysiwyg()[pri:0, instance:frames.FrameTest@6adbc9d]" started-at="2020-02-13T15:19:28 EET" name="testWysiwyg" finished-at="2020-02-13T15:19:29 EET" duration-ms="876" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testWysiwyg -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:frames.FrameTest@6adbc9d]" started-at="2020-02-13T15:19:29 EET" name="tearDown" finished-at="2020-02-13T15:19:29 EET" duration-ms="548" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- alerts.FileUploadTest -->
+        <test-method is-config="true" signature="recordFailure(org.testng.ITestResult)[pri:0, instance:frames.FrameTest@6adbc9d]" started-at="2020-02-13T15:19:29 EET" name="recordFailure" finished-at="2020-02-13T15:19:29 EET" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testWysiwyg status=SUCCESS method=FrameTest.testWysiwyg()[pri:0, instance:frames.FrameTest@6adbc9d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- recordFailure -->
+      </class> <!-- frames.FrameTest -->
     </test> <!-- Command line test -->
   </suite> <!-- Command line suite -->
 </testng-results>

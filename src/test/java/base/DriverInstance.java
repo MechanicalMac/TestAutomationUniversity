@@ -1,6 +1,8 @@
 package base;
 
 import com.google.common.io.Files;
+import io.github.bonigarcia.wdm.ChromeDriverManager;
+import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
@@ -22,7 +24,7 @@ public class DriverInstance {
 
     @BeforeClass
     public void setUp() {
-        System.setProperty("webdriver.chrome.driver", "resources\\chromedriver");
+        WebDriverManager.chromedriver().setup();
         driver = new  ChromeDriver(getChromeOptions());
         /*driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);*/
         /*driver.manage().timeouts().pageLoadTimeout(10, TimeUnit.SECONDS);*/
