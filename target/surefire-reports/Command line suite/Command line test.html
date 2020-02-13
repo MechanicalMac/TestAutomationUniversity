@@ -1,0 +1,159 @@
+<html>
+<head>
+<title>TestNG:  Command line test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Command line test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>16/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Thu Feb 13 10:42:30 EET 2020</td>
+</tr>
+<tr><td>Total time:</td><td>70 seconds (70966 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='context.ContextTest.contextMenuTest()'><b>contextMenuTest</b><br>Test class: context.ContextTest</td>
+<td></td>
+<td>0</td>
+<td>context.ContextTest@7e07db1f</td></tr>
+<tr>
+<td title='navigation.NavigationTest.switchTabTest()'><b>switchTabTest</b><br>Test class: navigation.NavigationTest</td>
+<td></td>
+<td>0</td>
+<td>navigation.NavigationTest@36902638</td></tr>
+<tr>
+<td title='alerts.AlertTest.testAcceptAlert()'><b>testAcceptAlert</b><br>Test class: alerts.AlertTest</td>
+<td></td>
+<td>0</td>
+<td>alerts.AlertTest@3a93b025</td></tr>
+<tr>
+<td title='keys.KeysTest.testBackspace()'><b>testBackspace</b><br>Test class: keys.KeysTest</td>
+<td></td>
+<td>0</td>
+<td>keys.KeysTest@49ec71f8</td></tr>
+<tr>
+<td title='alerts.FileUploadTest.testFileUpload()'><b>testFileUpload</b><br>Test class: alerts.FileUploadTest</td>
+<td></td>
+<td>15</td>
+<td>alerts.FileUploadTest@35cabb2a</td></tr>
+<tr>
+<td title='alerts.AlertTest.testGetTextFromAlert()'><b>testGetTextFromAlert</b><br>Test class: alerts.AlertTest</td>
+<td></td>
+<td>0</td>
+<td>alerts.AlertTest@3a93b025</td></tr>
+<tr>
+<td title='hover.HoverTest.testHoverUser1()'><b>testHoverUser1</b><br>Test class: hover.HoverTest</td>
+<td></td>
+<td>0</td>
+<td>hover.HoverTest@564fabc8</td></tr>
+<tr>
+<td title='navigation.NavigationTest.testNavigator()'><b>testNavigator</b><br>Test class: navigation.NavigationTest</td>
+<td></td>
+<td>1</td>
+<td>navigation.NavigationTest@36902638</td></tr>
+<tr>
+<td title='keys.KeysTest.testPi()'><b>testPi</b><br>Test class: keys.KeysTest</td>
+<td></td>
+<td>0</td>
+<td>keys.KeysTest@49ec71f8</td></tr>
+<tr>
+<td title='javascript.JavaScriptTest.testScrollToFifthParagraph()'><b>testScrollToFifthParagraph</b><br>Test class: javascript.JavaScriptTest</td>
+<td></td>
+<td>0</td>
+<td>javascript.JavaScriptTest@16d04d3d</td></tr>
+<tr>
+<td title='javascript.JavaScriptTest.testScrollToTable()'><b>testScrollToTable</b><br>Test class: javascript.JavaScriptTest</td>
+<td></td>
+<td>0</td>
+<td>javascript.JavaScriptTest@16d04d3d</td></tr>
+<tr>
+<td title='dropdown.DropdownTest.testSelectOption()'><b>testSelectOption</b><br>Test class: dropdown.DropdownTest</td>
+<td></td>
+<td>0</td>
+<td>dropdown.DropdownTest@1189dd52</td></tr>
+<tr>
+<td title='alerts.AlertTest.testSetInputInAlert()'><b>testSetInputInAlert</b><br>Test class: alerts.AlertTest</td>
+<td></td>
+<td>0</td>
+<td>alerts.AlertTest@3a93b025</td></tr>
+<tr>
+<td title='login.LoginTest.testSuccessfulLogin()'><b>testSuccessfulLogin</b><br>Test class: login.LoginTest</td>
+<td></td>
+<td>0</td>
+<td>login.LoginTest@1d2adfbe</td></tr>
+<tr>
+<td title='wait.WaitTest.testWaitUntilHidden()'><b>testWaitUntilHidden</b><br>Test class: wait.WaitTest</td>
+<td></td>
+<td>5</td>
+<td>wait.WaitTest@223d2c72</td></tr>
+<tr>
+<td title='frames.FrameTest.testWysiwyg()'><b>testWysiwyg</b><br>Test class: frames.FrameTest</td>
+<td></td>
+<td>0</td>
+<td>frames.FrameTest@36bc55de</td></tr>
+</table><p>
+</body>
+</html>

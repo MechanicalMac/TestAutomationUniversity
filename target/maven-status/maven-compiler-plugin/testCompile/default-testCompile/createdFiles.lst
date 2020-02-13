@@ -1,0 +1,12 @@
+navigation\NavigationTest.class
+alerts\FileUploadTest.class
+javascript\JavaScriptTest.class
+base\DriverInstance.class
+dropdown\DropdownTest.class
+context\ContextTest.class
+frames\FrameTest.class
+hover\HoverTest.class
+wait\WaitTest.class
+login\LoginTest.class
+alerts\AlertTest.class
+keys\KeysTest.class
